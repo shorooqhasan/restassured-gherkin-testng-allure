@@ -1,0 +1,1 @@
+{"responseCode":1,"reason":"Claim created: /claims/1470 but not exported yet, waiting for asset(s).","error":null,"creationData":{"id":"1470","uri":"/claims/1470"}}

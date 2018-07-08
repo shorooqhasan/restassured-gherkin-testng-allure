@@ -1,0 +1,149 @@
+{
+  "uid" : "65f4d3f8d991d5a0",
+  "name" : "testClaimCreation",
+  "title" : "Test claim creation",
+  "time" : {
+    "start" : 1531065009306,
+    "stop" : 1531065009540,
+    "duration" : 234
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Create Claim",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "78f764ed18b3213a",
+    "name" : "Regression suite : ACC",
+    "title" : "Regression suite : ACC"
+  },
+  "steps" : [ {
+    "name" : "createAndGetClaimId[1]",
+    "title" : "Claim creation",
+    "time" : {
+      "start" : 1531065009306,
+      "stop" : 1531065009540,
+      "duration" : 234
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 4
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "logToReport[Base URI : https://accbe-i01.int.diconium.com/acc]",
+      "title" : "Base URI : https://accbe-i01.int.diconium.com/acc",
+      "time" : {
+        "start" : 1531065009307,
+        "stop" : 1531065009307,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logToReport[Path : /ws/accident/services-api/v1/claims]",
+      "title" : "Path : /ws/accident/services-api/v1/claims",
+      "time" : {
+        "start" : 1531065009308,
+        "stop" : 1531065009308,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "convertRawToJson[io.restassured.internal.RestAssuredResponseImpl@5642ab4f]",
+      "title" : "Response Body : ",
+      "time" : {
+        "start" : 1531065009521,
+        "stop" : 1531065009523,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 1,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ {
+        "title" : "response body :",
+        "source" : "c6d8f472-d514-4f0f-b552-e91abe34ecc6-attachment.txt",
+        "type" : "text/plain",
+        "size" : 164,
+        "uid" : "2daa43655534dff3"
+      } ],
+      "steps" : [ ]
+    }, {
+      "name" : "logToReport[Claim created and claim Id is 1470]",
+      "title" : "Claim created and claim Id is 1470",
+      "time" : {
+        "start" : 1531065009540,
+        "stop" : 1531065009540,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Regression suite : ACC"
+  }, {
+    "name" : "testClass",
+    "value" : "acc_timeOut.sampleAccTests"
+  }, {
+    "name" : "feature",
+    "value" : "ACC"
+  }, {
+    "name" : "story",
+    "value" : "ACC test for Claims & Assets"
+  }, {
+    "name" : "suite-title",
+    "value" : "Regression suite : ACC"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "3119@dds-mbpro-67.main(1)"
+  }, {
+    "name" : "testGroup",
+    "value" : "ACC"
+  }, {
+    "name" : "testSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "testClaimCreation"
+  }, {
+    "name" : "host",
+    "value" : "dds-mbpro-67"
+  } ],
+  "parameters" : [ ]
+}

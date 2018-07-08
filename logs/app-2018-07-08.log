@@ -1,0 +1,982 @@
+2018-07-08 10:06:41,135 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:06:41,160 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:06:41,557 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@e9c78b3
+2018-07-08 10:06:41,569 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:06:41,572 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:06:41,572 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:06:41,573 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:06:41,573 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:06:41,782 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@2547d1b8
+2018-07-08 10:06:41,798 [main] INFO  utility.helpers - Claim created and claim Id is 1346
+2018-07-08 10:06:41,799 [main] INFO  utility.helpers - Test Case Name : testClaimCreation
+2018-07-08 10:06:41,800 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 10:06:41,803 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:06:41,803 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:06:41,807 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:06:41,809 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:06:42,017 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@7c7537f6
+2018-07-08 10:06:42,055 [main] INFO  utility.helpers - Claim created and claim Id is 1347
+2018-07-08 10:06:45,057 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:06:45,057 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:06:45,059 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:06:45,060 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:06:45,460 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@21232691
+2018-07-08 10:06:45,473 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:06:45,473 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:06:45,474 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:06:45,474 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:06:45,475 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:06:45,840 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@2a70d464
+2018-07-08 10:06:45,848 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:11:27,467 [main] INFO  utility.helpers - Test Case Name : overloadedAssetAttachment
+2018-07-08 10:11:27,491 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:11:33,631 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:11:33,796 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:11:33,798 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:11:36,054 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@763a53c1
+2018-07-08 10:11:36,069 [main] INFO  utility.helpers - Claim created and claim Id is 1348
+2018-07-08 10:11:36,073 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:11:36,073 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:11:36,099 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:11:36,106 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:11:36,578 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@eddf758
+2018-07-08 10:11:36,630 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:11:36,631 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:11:36,632 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:11:36,633 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:11:36,635 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:11:37,061 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@327fc965
+2018-07-08 10:11:37,070 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:11:37,082 [main] INFO  utility.helpers - Test Case Name : permittedAssetAttachment
+2018-07-08 10:11:37,082 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:11:37,083 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:11:37,084 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:11:37,084 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:11:37,306 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@5a6a336c
+2018-07-08 10:11:37,327 [main] INFO  utility.helpers - Claim created and claim Id is 1349
+2018-07-08 10:11:37,328 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:11:37,328 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:11:37,330 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:11:37,331 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:11:37,753 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@34106ddc
+2018-07-08 10:11:37,765 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:11:37,768 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:11:37,768 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:11:37,769 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:11:37,770 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:11:37,980 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@6c837cd
+2018-07-08 10:11:37,993 [main] INFO  utility.helpers - Claim created and claim Id is 1350
+2018-07-08 10:11:37,993 [main] INFO  utility.helpers - Test Case Name : testClaimCreation
+2018-07-08 10:11:37,996 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 10:11:37,997 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:11:37,997 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:11:37,998 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:11:37,998 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:11:38,224 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@ec75805
+2018-07-08 10:11:38,241 [main] INFO  utility.helpers - Claim created and claim Id is 1351
+2018-07-08 10:11:41,244 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:11:41,245 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:11:41,246 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:11:41,248 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:11:41,646 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@1f396ed8
+2018-07-08 10:11:41,663 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:11:41,663 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:11:41,663 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:11:41,664 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:11:41,665 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:11:42,025 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@43852953
+2018-07-08 10:11:42,036 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:13:09,835 [main] INFO  utility.helpers - Test Case Name : overloadedAssetAttachment
+2018-07-08 10:13:09,966 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:13:16,119 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:13:16,273 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:13:16,276 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:13:19,622 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@1229de5e
+2018-07-08 10:13:19,641 [main] INFO  utility.helpers - Claim created and claim Id is 1352
+2018-07-08 10:13:19,642 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:13:19,642 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:13:19,664 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:13:19,665 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:13:20,137 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@5bc776e2
+2018-07-08 10:13:20,147 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:13:20,149 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:13:20,149 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:13:20,151 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:13:20,153 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:13:20,564 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@a482d6f
+2018-07-08 10:13:20,582 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:13:20,596 [main] INFO  utility.helpers - Test Case Name : permittedAssetAttachment
+2018-07-08 10:13:20,600 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:13:20,600 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:13:20,601 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:13:20,603 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:13:20,822 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@7a80f60c
+2018-07-08 10:13:20,843 [main] INFO  utility.helpers - Claim created and claim Id is 1353
+2018-07-08 10:13:20,847 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:13:20,848 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:13:20,851 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:13:20,852 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:13:21,304 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@f308a2f
+2018-07-08 10:13:21,318 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:13:21,321 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:13:21,321 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:13:21,322 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:13:21,323 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:13:21,544 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@a24e874
+2018-07-08 10:13:21,555 [main] INFO  utility.helpers - Claim created and claim Id is 1354
+2018-07-08 10:13:21,556 [main] INFO  utility.helpers - Test Case Name : testClaimCreation
+2018-07-08 10:13:21,557 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 10:13:21,560 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:13:21,561 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:13:21,562 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:13:21,563 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:13:21,797 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@2a91c30c
+2018-07-08 10:13:21,818 [main] INFO  utility.helpers - Claim created and claim Id is 1355
+2018-07-08 10:13:24,826 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:13:24,826 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:13:24,829 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:13:24,831 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:13:25,247 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@5b4f914
+2018-07-08 10:13:25,258 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:13:25,262 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:13:25,263 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:13:25,265 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:13:25,269 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:13:25,766 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@7c2c3098
+2018-07-08 10:13:25,781 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:14:39,818 [main] INFO  utility.helpers - Test Case Name : overloadedAssetAttachment
+2018-07-08 10:14:39,928 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:14:45,996 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:14:46,190 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:14:46,193 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:14:48,514 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@7856f5e7
+2018-07-08 10:14:48,526 [main] INFO  utility.helpers - Claim created and claim Id is 1356
+2018-07-08 10:14:48,528 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:14:48,528 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:14:48,553 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:14:48,554 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:14:49,056 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@1dc823d3
+2018-07-08 10:14:49,085 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:14:49,089 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:14:49,090 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:14:49,094 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:14:49,095 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:14:49,498 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@697c3410
+2018-07-08 10:14:49,521 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:14:49,539 [main] INFO  utility.helpers - Test Case Name : permittedAssetAttachment
+2018-07-08 10:14:49,541 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:14:49,541 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:14:49,604 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:14:49,607 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:14:49,837 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@61cb973d
+2018-07-08 10:14:49,850 [main] INFO  utility.helpers - Claim created and claim Id is 1357
+2018-07-08 10:14:49,851 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:14:49,851 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:14:49,853 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:14:49,855 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:14:50,228 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@75321ba4
+2018-07-08 10:14:50,238 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:14:50,241 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:14:50,242 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:14:50,243 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:14:50,244 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:14:50,446 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@68a06679
+2018-07-08 10:14:50,458 [main] INFO  utility.helpers - Claim created and claim Id is 1358
+2018-07-08 10:14:50,458 [main] INFO  utility.helpers - Test Case Name : testClaimCreation
+2018-07-08 10:14:50,460 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 10:14:50,461 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:14:50,461 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:14:50,463 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:14:50,464 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:14:50,667 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@7a55004d
+2018-07-08 10:14:50,684 [main] INFO  utility.helpers - Claim created and claim Id is 1359
+2018-07-08 10:14:53,688 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:14:53,688 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:14:53,690 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:14:53,693 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:14:54,079 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@7fe3ee59
+2018-07-08 10:14:54,106 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:14:54,107 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:14:54,108 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:14:54,110 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:14:54,112 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:14:54,702 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@7859c88f
+2018-07-08 10:14:54,713 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:19:27,563 [main] INFO  utility.helpers - Test Case Name : overloadedAssetAttachment
+2018-07-08 10:19:27,673 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:19:33,618 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:19:33,765 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:19:33,767 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:19:36,023 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@3f36e502
+2018-07-08 10:19:36,043 [main] INFO  utility.helpers - Claim created and claim Id is 1360
+2018-07-08 10:19:36,045 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:19:36,045 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:19:36,067 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:19:36,068 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:19:36,635 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@1dc823d3
+2018-07-08 10:19:36,648 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:19:36,649 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:19:36,650 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:19:36,652 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:19:36,653 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:19:37,078 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@697c3410
+2018-07-08 10:19:37,090 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:19:37,099 [main] INFO  utility.helpers - Test Case Name : permittedAssetAttachment
+2018-07-08 10:19:37,101 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:19:37,101 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:19:37,103 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:19:37,104 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:19:37,315 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@61cb973d
+2018-07-08 10:19:37,324 [main] INFO  utility.helpers - Claim created and claim Id is 1361
+2018-07-08 10:19:37,325 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:19:37,326 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:19:37,327 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:19:37,329 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:19:37,727 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@75321ba4
+2018-07-08 10:19:37,741 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:19:37,744 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:19:37,744 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:19:37,745 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:19:37,747 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:19:37,961 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@68a06679
+2018-07-08 10:19:37,970 [main] INFO  utility.helpers - Claim created and claim Id is 1362
+2018-07-08 10:19:37,971 [main] INFO  utility.helpers - Test Case Name : testClaimCreation
+2018-07-08 10:19:37,972 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 10:19:37,974 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:19:37,974 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:19:37,976 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:19:37,978 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:19:38,203 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@7a55004d
+2018-07-08 10:19:38,216 [main] INFO  utility.helpers - Claim created and claim Id is 1363
+2018-07-08 10:19:41,219 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:19:41,220 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:19:41,223 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:19:41,225 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:19:41,621 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@7fe3ee59
+2018-07-08 10:19:41,633 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:19:41,635 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:19:41,636 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:19:41,640 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:19:41,641 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:19:42,014 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@7859c88f
+2018-07-08 10:19:42,044 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:20:03,246 [main] INFO  utility.helpers - Test Case Name : overloadedAssetAttachment
+2018-07-08 10:20:03,349 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:20:08,196 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:20:08,378 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:20:08,381 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:20:10,743 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@3ce270ae
+2018-07-08 10:20:10,756 [main] INFO  utility.helpers - Claim created and claim Id is 1364
+2018-07-08 10:20:10,757 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:20:10,757 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:20:10,781 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:20:10,783 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:20:11,338 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@206769f8
+2018-07-08 10:20:11,351 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:20:11,352 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:20:11,353 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:20:11,354 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:20:11,355 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:20:11,754 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@4af81941
+2018-07-08 10:20:11,768 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:20:11,777 [main] INFO  utility.helpers - Test Case Name : permittedAssetAttachment
+2018-07-08 10:20:11,779 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:20:11,779 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:20:11,780 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:20:11,782 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:20:12,006 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@8976a3c
+2018-07-08 10:20:12,016 [main] INFO  utility.helpers - Claim created and claim Id is 1365
+2018-07-08 10:20:12,017 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:20:12,017 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:20:12,027 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:20:12,036 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:20:12,449 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@151391ad
+2018-07-08 10:20:12,462 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:20:12,465 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:20:12,465 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:20:12,466 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:20:12,467 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:20:12,685 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@4680e424
+2018-07-08 10:20:12,710 [main] INFO  utility.helpers - Claim created and claim Id is 1366
+2018-07-08 10:20:12,712 [main] INFO  utility.helpers - Test Case Name : testClaimCreation
+2018-07-08 10:20:12,715 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 10:20:12,717 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:20:12,717 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:20:12,719 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:20:12,720 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:20:12,955 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@6cbe5b2a
+2018-07-08 10:20:12,969 [main] INFO  utility.helpers - Claim created and claim Id is 1367
+2018-07-08 10:20:15,972 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:20:15,973 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:20:15,976 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:20:15,979 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:20:16,385 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@5258833e
+2018-07-08 10:20:16,395 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:20:16,396 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:20:16,396 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:20:16,397 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:20:16,399 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:20:16,770 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@3989e022
+2018-07-08 10:20:16,778 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:25:41,718 [main] INFO  utility.helpers - Test Case Name : overloadedAssetAttachment
+2018-07-08 10:25:41,778 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:25:47,830 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:25:47,997 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:25:47,999 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:25:50,429 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@3ae7e1f2
+2018-07-08 10:25:50,444 [main] INFO  utility.helpers - Claim created and claim Id is 1368
+2018-07-08 10:25:50,445 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:25:50,445 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:25:50,552 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:25:50,553 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:25:51,165 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@81847c4
+2018-07-08 10:25:51,179 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:25:51,181 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:25:51,181 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:25:51,183 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:25:51,184 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:25:51,582 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@10706411
+2018-07-08 10:25:51,591 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:25:51,599 [main] INFO  utility.helpers - Test Case Name : permittedAssetAttachment
+2018-07-08 10:25:51,600 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:25:51,601 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:25:51,602 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:25:51,603 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:25:51,821 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@223bbda6
+2018-07-08 10:25:51,839 [main] INFO  utility.helpers - Claim created and claim Id is 1369
+2018-07-08 10:25:51,840 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:25:51,840 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:25:51,842 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:25:51,843 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:25:52,276 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@25af328e
+2018-07-08 10:25:52,287 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:25:52,290 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:25:52,291 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:25:52,292 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:25:52,294 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:25:52,505 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@48332551
+2018-07-08 10:25:52,522 [main] INFO  utility.helpers - Claim created and claim Id is 1370
+2018-07-08 10:25:52,523 [main] INFO  utility.helpers - Test Case Name : testClaimCreation
+2018-07-08 10:25:52,525 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 10:25:52,529 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:25:52,531 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 10:25:52,536 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:25:52,538 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:25:52,763 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@34a55cca
+2018-07-08 10:25:52,783 [main] INFO  utility.helpers - Claim created and claim Id is 1371
+2018-07-08 10:25:55,788 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:25:55,788 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:25:55,791 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:25:55,792 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:25:56,199 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@7541dbee
+2018-07-08 10:25:56,208 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 10:25:56,209 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 10:25:56,209 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 10:25:56,210 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 10:25:56,211 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 10:25:56,574 [main] INFO  utility.helpers - io.restassured.path.json.JsonPath@67b3cd01
+2018-07-08 10:25:56,587 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 12:58:11,626 [main] INFO  utility.helpers - Test Case Name : overloadedAssetAttachment
+2018-07-08 12:58:11,699 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:58:20,146 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 12:58:20,320 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:58:20,323 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:58:23,991 [main] INFO  utility.helpers - Claim created and claim Id is 1372
+2018-07-08 12:58:23,992 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:58:23,992 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 12:58:24,019 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:58:24,021 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:58:24,547 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 12:58:24,549 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:58:24,549 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 12:58:24,551 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:58:24,553 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:58:24,998 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 12:58:25,016 [main] INFO  utility.helpers - Test Case Name : permittedAssetAttachment
+2018-07-08 12:58:25,018 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:58:25,018 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 12:58:25,020 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:58:25,023 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:58:25,321 [main] INFO  utility.helpers - Claim created and claim Id is 1373
+2018-07-08 12:58:25,322 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:58:25,322 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 12:58:25,325 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:58:25,326 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:58:25,896 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 12:58:25,903 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:58:25,904 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 12:58:25,905 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:58:25,907 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:58:26,190 [main] INFO  utility.helpers - Claim created and claim Id is 1374
+2018-07-08 12:58:26,192 [main] INFO  utility.helpers - Test Case Name : testClaimCreation
+2018-07-08 12:58:26,197 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 12:58:26,199 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:58:26,199 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 12:58:26,204 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:58:26,206 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:58:26,485 [main] INFO  utility.helpers - Claim created and claim Id is 1375
+2018-07-08 12:58:29,492 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:58:29,492 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 12:58:29,494 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:58:29,495 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:58:29,939 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 12:58:29,940 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:58:29,940 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 12:58:29,942 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:58:29,943 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:58:30,333 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 12:59:27,718 [main] INFO  utility.helpers - Test Case Name : overloadedAssetAttachment
+2018-07-08 12:59:27,787 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:59:35,218 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 12:59:35,460 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:59:35,464 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:59:38,852 [main] INFO  utility.helpers - Claim created and claim Id is 1376
+2018-07-08 12:59:38,853 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:59:38,854 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 12:59:38,877 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:59:38,879 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:59:39,445 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 12:59:39,447 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:59:39,447 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 12:59:39,449 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:59:39,451 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:59:40,058 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 12:59:40,074 [main] INFO  utility.helpers - Test Case Name : permittedAssetAttachment
+2018-07-08 12:59:40,076 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:59:40,076 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 12:59:40,077 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:59:40,079 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:59:40,417 [main] INFO  utility.helpers - Claim created and claim Id is 1377
+2018-07-08 12:59:40,418 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:59:40,419 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 12:59:40,422 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:59:40,428 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:59:40,862 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 12:59:40,865 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:59:40,865 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 12:59:40,867 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:59:40,868 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:59:41,187 [main] INFO  utility.helpers - Claim created and claim Id is 1378
+2018-07-08 12:59:41,189 [main] INFO  utility.helpers - Test Case Name : testClaimCreation
+2018-07-08 12:59:41,191 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 12:59:41,193 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:59:41,193 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 12:59:41,196 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:59:41,198 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:59:41,439 [main] INFO  utility.helpers - Claim created and claim Id is 1379
+2018-07-08 12:59:44,446 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:59:44,447 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 12:59:44,449 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:59:44,451 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:59:44,861 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 12:59:44,862 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 12:59:44,862 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 12:59:44,865 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 12:59:44,866 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 12:59:45,245 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 13:01:32,337 [main] INFO  utility.helpers - Test Case Name : overloadedAssetAttachment
+2018-07-08 13:01:32,418 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:01:39,188 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 13:01:39,400 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:01:39,406 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:01:42,033 [main] INFO  utility.helpers - Claim created and claim Id is 1380
+2018-07-08 13:01:42,035 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:01:42,036 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 13:01:42,078 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:01:42,080 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:01:42,732 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 13:01:42,734 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:01:42,735 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 13:01:42,738 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:01:42,739 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:01:43,293 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 13:01:43,304 [main] INFO  utility.helpers - Test Case Name : permittedAssetAttachment
+2018-07-08 13:01:43,308 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:01:43,309 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 13:01:43,311 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:01:43,312 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:01:43,542 [main] INFO  utility.helpers - Claim created and claim Id is 1381
+2018-07-08 13:01:43,545 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:01:43,545 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 13:01:43,548 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:01:43,549 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:01:43,986 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 13:01:43,992 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:01:43,993 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 13:01:43,996 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:01:43,998 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:01:44,231 [main] INFO  utility.helpers - Claim created and claim Id is 1382
+2018-07-08 13:01:44,231 [main] INFO  utility.helpers - Test Case Name : testClaimCreation
+2018-07-08 13:01:44,234 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 13:01:44,236 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:01:44,236 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 13:01:44,238 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:01:44,240 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:01:44,487 [main] INFO  utility.helpers - Claim created and claim Id is 1383
+2018-07-08 13:01:47,491 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:01:47,495 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 13:01:47,500 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:01:47,502 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:01:47,980 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 13:01:47,982 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:01:47,983 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 13:01:47,985 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:01:47,986 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:01:48,411 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 13:03:15,540 [main] INFO  utility.helpers - Test Case Name : overloadedAssetAttachment
+2018-07-08 13:03:15,630 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:03:22,836 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 13:03:23,052 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:03:23,058 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:03:25,752 [main] INFO  utility.helpers - Claim created and claim Id is 1384
+2018-07-08 13:03:25,755 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:03:25,761 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 13:03:25,798 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:03:25,800 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:03:26,718 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 13:03:26,719 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:03:26,720 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 13:03:26,723 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:03:26,725 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:03:27,200 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 13:03:27,220 [main] INFO  utility.helpers - Test Case Name : permittedAssetAttachment
+2018-07-08 13:03:27,222 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:03:27,222 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 13:03:27,224 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:03:27,225 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:03:27,447 [main] INFO  utility.helpers - Claim created and claim Id is 1385
+2018-07-08 13:03:27,449 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:03:27,449 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 13:03:27,451 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:03:27,452 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:03:27,983 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 13:03:27,986 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:03:27,986 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 13:03:27,987 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:03:27,988 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:03:28,222 [main] INFO  utility.helpers - Claim created and claim Id is 1386
+2018-07-08 13:03:28,222 [main] INFO  utility.helpers - Test Case Name : testClaimCreation
+2018-07-08 13:03:28,224 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 13:03:28,226 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:03:28,226 [main] INFO  utility.helpers - POST - This request is to create a claim
+2018-07-08 13:03:28,228 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:03:28,229 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:03:28,457 [main] INFO  utility.helpers - Claim created and claim Id is 1387
+2018-07-08 13:03:31,463 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:03:31,463 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 13:03:31,465 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:03:31,466 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:03:32,453 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 13:03:32,454 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 13:03:32,455 [main] INFO  utility.helpers - POST - This request is to attach a asset
+2018-07-08 13:03:32,457 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 13:03:32,459 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 13:03:32,917 [main] INFO  utility.helpers - response code received for Asset attachment request is 810
+2018-07-08 15:33:02,063 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:33:07,142 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:33:07,145 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:33:09,537 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:33:09,560 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:33:09,562 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:33:10,051 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:33:10,054 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:33:10,055 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:33:10,470 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:33:10,471 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:33:10,472 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:33:10,692 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:33:10,695 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:33:10,696 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:33:11,139 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:33:11,141 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:33:11,142 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:33:11,390 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 15:33:11,396 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:33:11,399 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:33:11,400 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:33:14,641 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:33:14,646 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:33:14,648 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:33:15,075 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:33:15,076 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:33:15,077 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:39:06,615 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:39:12,063 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:39:12,068 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:39:14,449 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:39:14,471 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:39:14,472 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:39:15,005 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:39:15,006 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:39:15,007 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:39:15,421 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:39:15,423 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:39:15,423 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:39:15,659 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:39:15,661 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:39:15,662 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:39:16,066 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:39:16,068 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:39:16,068 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:39:16,281 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 15:39:16,282 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:39:16,283 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:39:16,284 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:39:19,527 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:39:19,531 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:39:19,532 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:39:19,959 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:39:19,960 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:39:19,961 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:44:30,108 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:44:36,601 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:44:36,604 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:44:38,996 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:44:39,018 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:44:39,019 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:44:39,508 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:44:39,510 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:44:39,511 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:44:39,961 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:44:39,963 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:44:39,963 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:44:40,202 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:44:40,204 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:44:40,205 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:44:40,653 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:44:40,655 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:44:40,655 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:44:40,879 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 15:44:40,881 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:44:40,883 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:44:40,884 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:44:44,119 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:44:44,121 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:44:44,122 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:44:44,522 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:44:44,523 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:44:44,524 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:47:51,942 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:47:58,581 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:47:58,584 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:48:01,039 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:48:01,060 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:48:01,061 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:48:01,700 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:48:01,702 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:48:01,702 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:48:02,127 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:48:02,129 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:48:02,130 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:48:02,394 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:48:02,396 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:48:02,398 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:48:02,819 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:48:02,821 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:48:02,821 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:48:03,060 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 15:48:03,062 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:48:03,069 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:48:03,070 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:48:06,317 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:48:06,320 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:48:06,321 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:48:06,755 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:48:06,757 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:48:06,758 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:49:47,017 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:49:52,988 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:49:52,990 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:49:56,216 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:49:56,238 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:49:56,239 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:49:57,077 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:49:57,079 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:49:57,081 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:49:57,505 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:49:57,507 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:49:57,508 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:49:57,772 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:49:57,774 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:49:57,775 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:49:58,168 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:49:58,170 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:49:58,170 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:49:58,390 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 15:49:58,391 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:49:58,396 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:49:58,398 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:50:01,624 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:50:01,628 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:50:01,629 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 15:50:02,066 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 15:50:02,068 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 15:50:02,068 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:00:28,706 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:00:35,368 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:00:35,369 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:00:37,725 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:00:37,747 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:00:37,748 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:00:38,258 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:00:38,261 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:00:38,261 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:00:38,711 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:00:38,713 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:00:38,714 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:00:38,947 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:00:38,990 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:00:38,992 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:00:39,380 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:00:39,382 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:00:39,383 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:00:39,623 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 16:00:39,625 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:00:39,627 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:00:39,628 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:00:42,883 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:00:42,887 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:00:42,888 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:00:43,299 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:00:43,301 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:00:43,302 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:06:07,271 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:06:13,758 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:06:13,759 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:06:16,289 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:06:16,337 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:06:16,398 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:06:16,965 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:06:16,967 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:06:16,968 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:06:17,395 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:06:17,396 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:06:17,397 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:06:17,628 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:06:17,631 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:06:17,632 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:06:18,034 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:06:18,036 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:06:18,037 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:06:18,283 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 16:06:18,284 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:06:18,286 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:06:18,287 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:06:21,533 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:06:21,536 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:06:21,537 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:06:21,940 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:06:21,941 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:06:21,942 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:38:42,849 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:38:50,044 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:38:50,045 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:38:52,734 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:38:52,756 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:38:52,757 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:38:53,242 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:38:53,244 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:38:53,245 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:38:53,664 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:38:53,665 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:38:53,666 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:38:53,947 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:38:53,949 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:38:53,950 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:38:54,339 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:38:54,341 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:38:54,342 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:38:54,573 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 16:38:54,575 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:38:54,576 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:38:54,577 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:38:57,823 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:38:57,826 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:38:57,827 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:38:58,231 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:38:58,233 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:38:58,233 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:50:14,655 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:50:14,991 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:50:14,992 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:50:16,364 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:50:16,379 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:50:16,380 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:50:16,885 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:50:16,889 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:50:16,890 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:50:17,322 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:50:17,323 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:50:17,324 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:50:17,556 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:50:17,559 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:50:17,560 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:50:17,970 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:50:17,972 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:50:17,973 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:50:18,208 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 16:50:18,209 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:50:18,210 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:50:18,210 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:50:21,460 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:50:21,463 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:50:21,465 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:50:21,867 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:50:21,868 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:50:21,868 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:52:47,624 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:52:47,977 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:52:47,978 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:52:49,351 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:52:49,367 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:52:49,368 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:52:49,832 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:52:49,834 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:52:49,835 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:52:50,248 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:52:50,249 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:52:50,250 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:52:50,496 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:52:50,499 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:52:50,500 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:52:50,920 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:52:50,921 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:52:50,922 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:52:51,134 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 16:52:51,134 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:52:51,135 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:52:51,136 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:52:54,369 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:52:54,371 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:52:54,372 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 16:52:54,781 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 16:52:54,782 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 16:52:54,783 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:02:21,064 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:02:21,449 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:02:21,451 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:02:22,910 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:02:22,922 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:02:22,923 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:02:23,412 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:02:23,414 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:02:23,415 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:02:23,824 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:02:23,825 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:02:23,825 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:02:24,033 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:02:24,037 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:02:24,038 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:02:24,469 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:02:24,470 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:02:24,471 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:02:24,737 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 17:02:24,738 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:02:24,739 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:02:24,740 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:02:27,986 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:02:27,989 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:02:27,990 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:02:28,401 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:02:28,402 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:02:28,403 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:04:03,662 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:04:04,016 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:04:04,017 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:04:05,395 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:04:05,408 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:04:05,409 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:04:05,889 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:04:05,890 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:04:05,891 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:04:06,298 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:04:06,299 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:04:06,300 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:04:06,514 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:04:06,516 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:04:06,517 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:04:06,922 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:04:06,923 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:04:06,925 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:04:07,151 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 17:04:07,155 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:04:07,177 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:04:07,179 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:04:10,410 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:04:10,412 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:04:10,413 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:04:10,800 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:04:10,800 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:04:10,801 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:05:29,351 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:05:35,000 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:05:35,002 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:05:38,476 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:05:38,500 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:05:38,501 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:05:39,030 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:05:39,032 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:05:39,033 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:05:39,457 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:05:39,459 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:05:39,459 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:05:39,702 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:05:39,705 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:05:39,706 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:05:40,121 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:05:40,122 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:05:40,123 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:05:40,355 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 17:05:40,358 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:05:40,360 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:05:40,360 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:05:43,585 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:05:43,591 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:05:43,592 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:05:44,016 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:05:44,018 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:05:44,019 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:10:37,266 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:10:42,956 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:10:42,959 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:10:45,631 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:10:45,671 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:10:45,672 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:10:46,191 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:10:46,193 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:10:46,194 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:10:46,612 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:10:46,614 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:10:46,615 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:10:46,973 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:10:46,980 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:10:46,981 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:10:47,402 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:10:47,403 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:10:47,404 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:10:47,680 [main] INFO  utility.helpers - Test Case Name : timedOutAssetAttachment
+2018-07-08 17:10:47,686 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:10:47,693 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:10:47,693 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:10:50,946 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:10:50,950 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:10:50,951 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:10:51,341 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:10:51,343 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:10:51,343 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:19:37,023 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:19:42,710 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:19:42,712 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:19:45,223 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:19:45,246 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:19:45,247 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:19:45,735 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:19:45,737 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:19:45,737 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:19:46,210 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:19:46,214 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:19:46,216 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:19:46,469 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
+2018-07-08 17:19:46,471 [main] INFO  utility.helpers - Property - USERNAME is : acc_user
+2018-07-08 17:19:46,472 [main] INFO  utility.helpers - Property - PASSWORD is : fea638af-7ead-4a37-8373-0ae17484af9f
+2018-07-08 17:19:46,884 [main] INFO  utility.helpers - Property - HOST is : https://accbe-i01.int.diconium.com/acc
