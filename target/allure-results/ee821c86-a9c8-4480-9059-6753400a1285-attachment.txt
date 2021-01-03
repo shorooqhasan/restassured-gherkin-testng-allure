@@ -1,1 +1,0 @@
-{"responseCode":810,"reason":"Assets were not submitted in time, all transferred claim data was discarded.","error":{"errorId":"8848494a-0284-4499-9399-197589a88f59"}}

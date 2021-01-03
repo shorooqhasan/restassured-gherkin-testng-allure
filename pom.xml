@@ -1,48 +1,51 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>MavenFramework</groupId>
-  <artifactId>RestAPI</artifactId>
+  <groupId>com.project.template</groupId>
+  <artifactId>restassured-gherkin-testng-allure</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>RestAPI</name>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>restassured-gherkin-testng-allure</name>
   <url>http://maven.apache.org</url>
 
     <properties>
         <aspectj.version>1.8.10</aspectj.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <property name="target.dir" value="${base.dir}/target" />
+        <property name="target.dir" value="${base.dir}/target"/>
+        <jacoco.version>0.8.5</jacoco.version>
+        <rest.assured.version>4.3.1</rest.assured.version>
+        <suiteFile/>
+        <envConfig/>
     </properties>
 
     <build>
-        <resources>
-            <resource>
-                <directory>src/main/java/resources</directory>
-            </resource>
-        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.6.0</version>
+                <version>3.8.1</version>
                 <configuration>
-                    <source>7</source>
-                    <target>7</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.18.1</version>
+                <version>3.0.0-M5</version>
                 <configuration>
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <useSystemClassLoader>false</useSystemClassLoader>
+                    <systemPropertyVariables>
+                        <environment>${envConfig}</environment>
+                    </systemPropertyVariables>
+                    <testFailureIgnore>false</testFailureIgnore>
                     <suiteXmlFiles>
-                        <suiteXmlFile>regression.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/java/testsuites/${suiteFile}</suiteXmlFile>
                     </suiteXmlFiles>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
+                    <!--<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>-->
                 </configuration>
                 <dependencies>
                     <dependency>
@@ -52,140 +55,225 @@
                     </dependency>
                 </dependencies>
             </plugin>
-
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
-                <version>2.8</version>
+                <version>2.10.0</version>
             </plugin>
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-failsafe-plugin</artifactId>
-                <version>2.18.1</version>
-            </plugin>
         </plugins>
     </build>
 
-  <dependencies>
+    <dependencies>
 
-      <dependency>
-          <groupId>org.testinfected.hamcrest-matchers</groupId>
-          <artifactId>core-matchers</artifactId>
-          <version>1.8</version>
-     </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+            <scope>test</scope>
+        </dependency>
 
-      <dependency>
-          <groupId>com.beust</groupId>
-          <artifactId>jcommander</artifactId>
-          <version>1.72</version>
-      </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.6</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.3.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.ant</groupId>
+                    <artifactId>ant</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
 
-      <dependency>
-          <groupId>io.rest-assured</groupId>
-          <artifactId>json-path</artifactId>
-          <version>3.1.0</version>
-      </dependency>
+        <dependency>
+            <groupId>ru.yandex.qatools.allure</groupId>
+            <artifactId>allure-testng-adaptor</artifactId>
+            <version>1.5.4</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.yandex.qatools.allure</groupId>
+            <artifactId>allure-core</artifactId>
+            <version>1.5.4</version>
+            <type>pom</type>
+        </dependency>
 
-      <dependency>
-          <groupId>io.rest-assured</groupId>
-          <artifactId>xml-path</artifactId>
-          <version>3.1.0</version>
-      </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+            <version>3.9.1</version>
+            <type>maven-plugin</type>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <!--  exclude because it introduces a transient dependency upon log4j 1.12.2 -->
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+                <exclusion>
+                    <!-- exclude because doxia has a direct dependency on a newer version and
+                    otherwise whitesource gets upset -->
+                    <groupId>commons-collections</groupId>
+                    <artifactId>commons-collections</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.codehaus.plexus</groupId>
+                    <artifactId>plexus-utils</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
 
-      <dependency>
-          <groupId>io.rest-assured</groupId>
-          <artifactId>json-schema-validator</artifactId>
-          <version>3.1.0</version>
-          <scope>test</scope>
-      </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.13</version>
+        </dependency>
 
-      <dependency>
-          <groupId>io.rest-assured</groupId>
-          <artifactId>spring-mock-mvc</artifactId>
-          <version>3.1.0</version>
-          <scope>test</scope>
-      </dependency>
+        <dependency>
+            <!--  Used to provide NotNull annotations -->
+            <!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>2.0.1.Final</version>
+        </dependency>
 
-      <dependency>
-          <groupId>io.rest-assured</groupId>
-          <artifactId>rest-assured</artifactId>
-          <version>3.1.0</version>
-      </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.8.0</version>
+        </dependency>
 
-      <dependency>
-          <groupId>org.apache.logging.log4j</groupId>
-          <artifactId>log4j-api</artifactId>
-          <version>2.11.0</version>
-      </dependency>
-      <dependency>
-          <groupId>org.apache.logging.log4j</groupId>
-          <artifactId>log4j-core</artifactId>
-          <version>2.11.0</version>
-      </dependency>
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+            <version>2.11.0</version>
+        </dependency>
 
-     <!-- <dependency>
-          <groupId>org.slf4j</groupId>
-          <artifactId>slf4j-api</artifactId>
-          <version>1.7.5</version>
-      </dependency>
-      <dependency>
-          <groupId>org.slf4j</groupId>
-          <artifactId>slf4j-log4j12</artifactId>
-          <version>1.7.5</version>
-      </dependency>-->
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.11.0</version>
+        </dependency>
 
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.11.0</version>
+        </dependency>
 
-      <dependency>
-          <groupId>org.testng</groupId>
-          <artifactId>testng</artifactId>
-          <version>6.14.3</version>
-      </dependency>
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>1.6.2</version>
+        </dependency>
 
-      <!-- <dependency>
-           <groupId>io.qameta.allure</groupId>
-           <artifactId>allure-java-commons</artifactId>
-           <version>2.6.0</version>
-       </dependency>-->
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mailapi</artifactId>
+            <version>1.4.3</version>
+            <scope>compile</scope>
+        </dependency>
 
-      <!--<dependency>
-          <groupId>ru.yandex.qatools.allure</groupId>
-          <artifactId>allure-bundle</artifactId>
-          <version>1.5.4</version>
-      </dependency>-->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20200518</version>
+        </dependency>
 
-      <dependency>
-          <groupId>ru.yandex.qatools.allure</groupId>
-          <artifactId>allure-testng-adaptor</artifactId>
-          <version>1.5.4</version>
-      </dependency>
-      <dependency>
-          <groupId>ru.yandex.qatools.allure</groupId>
-          <artifactId>allure-core</artifactId>
-          <version>1.5.4</version>
-          <type>pom</type>
-      </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.13.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.13.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
 
-      <dependency>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-site-plugin</artifactId>
-          <version>3.7.1</version>
-      </dependency>
+        <!-- https://mvnrepository.com/artifact/org.awaitility/awaitility -->
+        <dependency>
+            <groupId>org.awaitility</groupId>
+            <artifactId>awaitility</artifactId>
+            <version>4.0.3</version>
+        </dependency>
 
-     <!-- <dependency>
-          <groupId>ru.yandex.qatools.allure</groupId>
-          <artifactId>allure-report-builder</artifactId>
-          <version>2.3</version>
-      </dependency>
+        <dependency>
+            <!-- Override outdated version used by allure -->
+            <!-- https://mvnrepository.com/artifact/org.apache.tika/tika-core -->
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-core</artifactId>
+            <version>1.24.1</version>
+        </dependency>
 
-      <dependency>
-          <groupId>ru.yandex.qatools.allure</groupId>
-          <artifactId>allure-report-data</artifactId>
-          <version>1.5.4</version>
-      </dependency>-->
+        <dependency>
+            <groupId>org.jacoco</groupId>
+            <artifactId>org.jacoco.agent</artifactId>
+            <classifier>runtime</classifier>
+            <version>${jacoco.version}</version>
+        </dependency>
 
-  </dependencies>
+        <dependency>
+            <!-- https://mvnrepository.com/artifact/org.yaml/snakeyaml -->
+            <!-- Override the version from testng and jason-dataformat-yaml -->
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.27</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>${rest.assured.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>spring-mock-mvc</artifactId>
+            <version>${rest.assured.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>${rest.assured.version}</version>
+            <exclusions>
+                <exclusion>
+                    <!--
+                     This version is quite old
+                     if required create a dependency to the new version -->
+                    <groupId>org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.6</version>
+        </dependency>
+
+    </dependencies>
 
     <reporting>
         <excludeDefaults>true</excludeDefaults>
@@ -193,10 +281,29 @@
             <plugin>
                 <groupId>ru.yandex.qatools.allure</groupId>
                 <artifactId>allure-maven-plugin</artifactId>
-                <version>2.5</version>
+                <version>2.6</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jxr-plugin</artifactId>
+                <version>3.0.0</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <configLocation>src/main/resources/checkstyle_config.xml</configLocation>
+                </configuration>
+                <reportSets>
+                    <reportSet>
+                        <reports>
+                            <report>checkstyle</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
             </plugin>
         </plugins>
     </reporting>
-
 
 </project>

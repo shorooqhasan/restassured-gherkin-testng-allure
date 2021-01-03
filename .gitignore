@@ -1,0 +1,9 @@
+*.iml
+allure-results
+test-output
+target
+logs
+.idea
+.allure
+/.idea/
+ajcore.*
