@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Regression suite">
-    <listeners><listener class-name="utility.CustomListener"/></listeners>
-    <test name="ACC">
-        <classes>
-            <class name="acc_timeOut.sampleAccTests"/>
-        </classes>
-    </test>
-</suite>
