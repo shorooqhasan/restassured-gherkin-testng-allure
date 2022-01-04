@@ -20,3 +20,6 @@ allure-results/
 
 # OS specific files
 .DS_Store
+
+restassured-gherkin-testng-allure.iml
+*.iml
