@@ -1,12 +1,10 @@
 package com.template.project.common;
 
-import lombok.SneakyThrows;
-
-import javax.naming.ConfigurationException;
-import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
+import javax.naming.ConfigurationException;
+import lombok.SneakyThrows;
 
 public class Constants {
 

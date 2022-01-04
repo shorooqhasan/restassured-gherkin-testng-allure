@@ -1,13 +1,12 @@
 package com.template.project.common;
 
-import io.restassured.response.Response;
-import org.apache.logging.log4j.LogManager;
-import ru.yandex.qatools.allure.annotations.Attachment;
-import ru.yandex.qatools.allure.annotations.Step;
-
-import java.util.Properties;
-
 import static org.testng.Reporter.log;
+
+import io.qameta.allure.Attachment;
+import io.qameta.allure.Step;
+import io.restassured.response.Response;
+import java.util.Properties;
+import org.apache.logging.log4j.LogManager;
 
 /** Adds content to allure reporting. */
 public class Logger {

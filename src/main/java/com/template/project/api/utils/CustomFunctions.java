@@ -1,13 +1,14 @@
 package com.template.project.api.utils;
 
-import io.restassured.response.Response;
-
-import java.util.Objects;
-
+import static com.template.project.common.Logger.logInfo;
+import static com.template.project.common.RestAssuredUtils.convertRawToJson;
+import static com.template.project.common.RestAssuredUtils.encodeImageToBase64;
+import static com.template.project.common.RestAssuredUtils.findFile;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotEquals;
-import static com.template.project.common.Logger.logInfo;
-import static com.template.project.common.RestAssuredUtils.*;
+
+import io.restassured.response.Response;
+import java.util.Objects;
 
 public class CustomFunctions {
 

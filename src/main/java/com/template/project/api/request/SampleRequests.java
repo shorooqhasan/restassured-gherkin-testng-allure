@@ -1,17 +1,16 @@
 package com.template.project.api.request;
 
-import com.template.project.api.resource.SampleResource;
-import com.template.project.common.Logger;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import ru.yandex.qatools.allure.annotations.Step;
-
-import java.io.IOException;
-
 import static com.template.project.api.payload.SamplePayload.buildCustomerCreationPayload;
 import static com.template.project.api.payload.SamplePayload.buildUpdateCustomerDetailsPayload;
 import static com.template.project.common.ConfigFileReaderUtils.getValueFromEnvironmentFile;
 import static io.restassured.RestAssured.given;
+
+import com.template.project.api.resource.SampleResource;
+import com.template.project.common.Logger;
+import io.qameta.allure.Step;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import java.io.IOException;
 
 public class SampleRequests {
 

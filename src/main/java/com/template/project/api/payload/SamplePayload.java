@@ -1,11 +1,11 @@
 package com.template.project.api.payload;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.template.project.api.model.SampleModel;
-import com.template.project.api.builder.SampleBuilder;
-
 import static com.template.project.api.builder.SampleBuilder.addCustomer;
 import static com.template.project.api.builder.SampleBuilder.updateCustomerDetails;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.template.project.api.builder.SampleBuilder;
+import com.template.project.api.model.SampleModel;
 
 public class SamplePayload {
 

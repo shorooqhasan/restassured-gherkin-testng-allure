@@ -1,13 +1,13 @@
 package com.template.project.common;
 
+import io.qameta.allure.Step;
+import io.qameta.allure.testng.AllureTestNg;
 import lombok.extern.slf4j.Slf4j;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
-import ru.yandex.qatools.allure.annotations.Step;
-import ru.yandex.qatools.allure.testng.AllureTestListener;
 
 @Slf4j
-public class RestAssuredListener extends AllureTestListener {
+public class RestAssuredListener extends AllureTestNg {
 
   @Override
   public void onStart(final ITestContext arg0) {

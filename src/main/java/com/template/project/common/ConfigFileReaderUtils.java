@@ -1,20 +1,24 @@
 package com.template.project.common;
 
+import static com.template.project.common.Logger.logInfo;
+
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import lombok.extern.log4j.Log4j2;
-import org.apache.tika.io.FilenameUtils;
-import ru.yandex.qatools.allure.annotations.Step;
-
-import javax.naming.ConfigurationException;
-import java.io.*;
+import io.qameta.allure.Step;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
 import java.util.Objects;
 import java.util.Properties;
-
-import static com.template.project.common.Logger.logInfo;
+import javax.naming.ConfigurationException;
+import lombok.extern.log4j.Log4j2;
+import org.apache.tika.io.FilenameUtils;
 
 @Log4j2
 public class ConfigFileReaderUtils {

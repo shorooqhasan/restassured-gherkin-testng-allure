@@ -1,15 +1,18 @@
 package com.template.project.common;
 
-import lombok.extern.slf4j.Slf4j;
-import ru.yandex.qatools.allure.annotations.Step;
+import static com.template.project.common.Logger.logInfo;
 
-import javax.naming.ConfigurationException;
-import java.io.*;
+import io.qameta.allure.Step;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
 import java.util.Properties;
-
-import static com.template.project.common.Logger.logInfo;
+import javax.naming.ConfigurationException;
+import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class PropertyFileReaderUtils {
