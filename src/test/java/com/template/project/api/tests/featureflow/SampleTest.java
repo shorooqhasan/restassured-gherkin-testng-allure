@@ -1,21 +1,18 @@
 package com.template.project.api.tests.featureflow;
 
-import com.template.project.api.utils.CustomFunctions;
-import io.restassured.response.Response;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-import com.template.project.api.request.SampleRequests;
-import ru.yandex.qatools.allure.annotations.Description;
-import ru.yandex.qatools.allure.annotations.Features;
-import ru.yandex.qatools.allure.annotations.Stories;
-
-import java.io.IOException;
-
 import static com.template.project.common.Logger.logInfo;
 import static com.template.project.common.RestAssuredUtils.verifyStatusCode;
 
-@Features("Shop")
-@Stories("Customer flow")
+import com.template.project.api.request.SampleRequests;
+import com.template.project.api.utils.CustomFunctions;
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
+import io.restassured.response.Response;
+import java.io.IOException;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+@Feature("Shop")
 public class SampleTest {
 
   @Test
