@@ -1,1 +1,82 @@
-{ }
+{
+  "1c15ab48aa320303536b79bb9fc39369" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39bedb81184e60a0",
+      "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/5//#testresult/39bedb81184e60a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641416392629,
+        "stop" : 1641416394881,
+        "duration" : 2252
+      }
+    } ]
+  },
+  "f898b64c29b29e5925bcbaafa979d804" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c682575f8a223048",
+      "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/5//#testresult/c682575f8a223048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641416391671,
+        "stop" : 1641416392832,
+        "duration" : 1161
+      }
+    } ]
+  },
+  "bbafe3222041f97369137b9206133a69" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99dc433421a2e48e",
+      "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/5//#testresult/99dc433421a2e48e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641416385310,
+        "stop" : 1641416391492,
+        "duration" : 6182
+      }
+    } ]
+  },
+  "6ff6b5d54a39cb55faf0b6e18d6218a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3568484ea1a988ba",
+      "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/5//#testresult/3568484ea1a988ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641416385314,
+        "stop" : 1641416392615,
+        "duration" : 7301
+      }
+    } ]
+  }
+}
