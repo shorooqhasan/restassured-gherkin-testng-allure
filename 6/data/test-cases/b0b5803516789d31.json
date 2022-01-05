@@ -1,0 +1,293 @@
+{
+  "uid" : "b0b5803516789d31",
+  "name" : "testCustomerCreation",
+  "fullName" : "com.template.project.api.tests.featureflow.SampleTest.testCustomerCreation",
+  "historyId" : "bbafe3222041f97369137b9206133a69",
+  "time" : {
+    "start" : 1641417070173,
+    "stop" : 1641417076594,
+    "duration" : 6421
+  },
+  "description" : "Verify Customer creation",
+  "descriptionHtml" : "<p>Verify Customer creation</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verify Customer creation",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create Customer using POST request",
+      "time" : {
+        "start" : 1641417070243,
+        "stop" : 1641417075580,
+        "duration" : 5337
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get value from Environment config file",
+        "time" : {
+          "start" : 1641417071147,
+          "stop" : 1641417071212,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "INFO: Tests are run on defaultconfig",
+          "time" : {
+            "start" : 1641417071155,
+            "stop" : 1641417071175,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "message",
+            "value" : "Tests are run on defaultconfig"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true,
+          "stepsCount" : 0
+        }, {
+          "name" : "INFO: https://api.predic8.de:443 is read from environment file",
+          "time" : {
+            "start" : 1641417071212,
+            "stop" : 1641417071212,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "message",
+            "value" : "https://api.predic8.de:443 is read from environment file"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "propName",
+          "value" : "host_api"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 2
+      }, {
+        "name" : "INFO: Base URI : https://api.predic8.de:443",
+        "time" : {
+          "start" : 1641417071682,
+          "stop" : 1641417071682,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "message",
+          "value" : "Base URI : https://api.predic8.de:443"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "INFO: Path : /shop/customers/",
+        "time" : {
+          "start" : 1641417071682,
+          "stop" : 1641417071682,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "message",
+          "value" : "Path : /shop/customers/"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "b98156a0baa213c5",
+        "name" : "request body :",
+        "source" : "b98156a0baa213c5.txt",
+        "type" : "text/plain",
+        "size" : 74
+      }, {
+        "uid" : "8783a9205345fa72",
+        "name" : "response body :",
+        "source" : "8783a9205345fa72.txt",
+        "type" : "text/plain",
+        "size" : 100
+      } ],
+      "parameters" : [ {
+        "name" : "firstname",
+        "value" : "customerFirstName"
+      }, {
+        "name" : "lastname",
+        "value" : "customerLastName"
+      } ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "INFO: Customer created and Customer Id is 379",
+      "time" : {
+        "start" : 1641417076526,
+        "stop" : 1641417076527,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Customer created and Customer Id is 379"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "INFO: Customer created successfully : 379",
+      "time" : {
+        "start" : 1641417076527,
+        "stop" : 1641417076527,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Customer created successfully : 379"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "INFO: Customer created and Customer first name is customerFirstName",
+      "time" : {
+        "start" : 1641417076562,
+        "stop" : 1641417076563,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Customer created and Customer first name is customerFirstName"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "INFO: Customer created and Customer last name is customerLastName",
+      "time" : {
+        "start" : 1641417076583,
+        "stop" : 1641417076583,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Customer created and Customer last name is customerLastName"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 10
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.template.project.api.tests.featureflow.SampleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.template.project.api.tests.featureflow.SampleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCustomerCreation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API integration suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHOP - Customer Flow"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.template.project.api.tests.featureflow.SampleTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-629"
+  }, {
+    "name" : "thread",
+    "value" : "2784@fv-az83-629.TestNG-test=SHOP - Customer Flow-1(14)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "99dc433421a2e48e",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/5//#testresult/99dc433421a2e48e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641416385310,
+          "stop" : 1641416391492,
+          "duration" : 6182
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b0b5803516789d31.json",
+  "parameterValues" : [ ]
+}
