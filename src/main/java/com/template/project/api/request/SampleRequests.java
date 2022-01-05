@@ -20,10 +20,7 @@ public class SampleRequests {
 
     final String resourcePath = SampleResource.CUSTOMER_RESOURCE;
 
-//    final String requestBody = buildCustomerCreationPayload(firstname, lastname);
-
-    final String requestBody = " {   \"name\": \"Wildberries\",   \"price\": 4.99,   \"category_url\": \"/shop/categories/Fruits\",   \"vendor_url\": \"/shop/vendors/672\" } ";
-
+    final String requestBody = buildCustomerCreationPayload(firstname, lastname);
 
     Logger.logInfo("Base URI : " + host);
     Logger.logInfo("Path : " + resourcePath);
