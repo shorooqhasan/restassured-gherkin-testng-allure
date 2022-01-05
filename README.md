@@ -67,6 +67,9 @@
 <p align="left">
   <a href="/docs/access-allure-reports.md">5. How can I generate and view Allure reports after maven test execution</a>
 <p>
+<p align="left">
+  <a href="https://rest-assured.io/">6. Where can I find official REST Assured documentation?</a>
+<p>
 
 
 [linkedin]: https://www.linkedin.com/in/parthiban-rajasekaran/

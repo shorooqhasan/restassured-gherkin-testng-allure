@@ -18,9 +18,12 @@ public class SampleRequests {
   public static Response createCustomer(String firstname, String lastname) throws IOException {
     final String host = getValueFromEnvironmentFile("host_api");
 
-    final String resourcePath = SampleResource.customerResource;
+    final String resourcePath = SampleResource.CUSTOMER_RESOURCE;
 
-    final String requestBody = buildCustomerCreationPayload(firstname, lastname);
+//    final String requestBody = buildCustomerCreationPayload(firstname, lastname);
+
+    final String requestBody = " {   \"name\": \"Wildberries\",   \"price\": 4.99,   \"category_url\": \"/shop/categories/Fruits\",   \"vendor_url\": \"/shop/vendors/672\" } ";
+
 
     Logger.logInfo("Base URI : " + host);
     Logger.logInfo("Path : " + resourcePath);
@@ -51,7 +54,7 @@ public class SampleRequests {
   public static Response getCustomerDetails(String customerId) {
 
     final String host = getValueFromEnvironmentFile("host_api");
-    final String resourcePath = SampleResource.customerResource + customerId;
+    final String resourcePath = SampleResource.CUSTOMER_RESOURCE + customerId;
 
     Logger.logInfo("Base URI : " + host);
     Logger.logInfo("Path : " + resourcePath);
@@ -79,7 +82,7 @@ public class SampleRequests {
       String customerId, String newFirstName, String newLastName) throws IOException {
 
     String host = getValueFromEnvironmentFile("host_api");
-    final String resourcePath = SampleResource.customerResource + customerId;
+    final String resourcePath = SampleResource.CUSTOMER_RESOURCE + customerId;
 
     String requestBody = buildUpdateCustomerDetailsPayload(newFirstName, newLastName);
 
@@ -110,7 +113,7 @@ public class SampleRequests {
   public static Response deleteCustomerDetails(String customerId) {
 
     final String host = getValueFromEnvironmentFile("host_api");
-    final String resourcePath = SampleResource.customerResource + customerId;
+    final String resourcePath = SampleResource.CUSTOMER_RESOURCE + customerId;
 
     Logger.logInfo("Base URI : " + host);
     Logger.logInfo("Path : " + resourcePath);

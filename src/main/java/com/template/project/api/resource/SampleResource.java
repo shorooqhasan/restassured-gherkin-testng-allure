@@ -2,5 +2,6 @@ package com.template.project.api.resource;
 
 public class SampleResource {
 
-  public static String customerResource = "/shop/customers/";
+  public static final String CUSTOMER_RESOURCE = "/shop/customers/";
+
 }
