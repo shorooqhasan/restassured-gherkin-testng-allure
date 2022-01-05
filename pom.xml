@@ -14,6 +14,7 @@
         <property name="target.dir" value="${base.dir}/target"/>
         <jacoco.version>0.8.7</jacoco.version>
         <rest.assured.version>4.4.0</rest.assured.version>
+        <allure.version>2.17.2</allure.version>
         <suiteFile/>
         <envConfig/>
     </properties>
@@ -49,7 +50,7 @@
                     <systemProperties>
                         <property>
                             <name>allure.results.directory</name>
-                            <value>${basedir}/allure-results</value>
+                            <value>${basedir}/target/allure-results</value>
                         </property>
                     </systemProperties>
                 </configuration>
@@ -251,7 +252,7 @@
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
-            <version>2.17.2</version>
+            <version>${allure.version}</version>
         </dependency>
 
         <dependency>
@@ -292,24 +293,12 @@
         <excludeDefaults>true</excludeDefaults>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jxr-plugin</artifactId>
-                <version>3.0.0</version>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.0.0</version>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version>
                 <configuration>
-                    <configLocation>src/main/resources/checkstyle_config.xml</configLocation>
+                    <reportVersion>${allure.version}</reportVersion>
                 </configuration>
-                <reportSets>
-                    <reportSet>
-                        <reports>
-                            <report>checkstyle</report>
-                        </reports>
-                    </reportSet>
-                </reportSets>
             </plugin>
         </plugins>
     </reporting>
