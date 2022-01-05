@@ -28,14 +28,15 @@ _Think about the functionality of a the REST method "products" of the Fruit Shop
 ![](tests.png)
 
 #### Secondary Task: (Create requests and tests by Builder design pattern)
-1. Create a model
+1. Create a model <br />
 ![](model.png)
 2. Create a builder
 ![](builder.png)
 3. Build the payload by parsing JSON objects
 ![](payload.png)
+<br />
 
-Build below payloads:
+##### _Build below payloads_:
 
 **Payload 1:**
 ```
