@@ -13,101 +13,25 @@ _Think about the functionality of a the REST method "products" of the Fruit Shop
 - list all products
 
 #### Primary Task: (Create requests and tests by passing request body as a String)
-1. Provide the base uri (Uniform Resource Identifier) via environment_config file within resources/config
-![](env_config.png)
-2. Provide the resource in the resource class
-![](resources.png)
-3. Provide request body (Payload) as a string
-(comment out :  //String requestBody = SamplePayload.buildCustomerCreationPayload(firstname, lastname);
-   Example:
-   String requestBody = " {   "name": "Wildberries",   "price": 4.99,   "category_url": "/shop/categories/Fruits",   "vendor_url": "/shop/vendors/672" } "
-![](request_body.png)
-4. Create sample requests (POST / GET / PUT / DEL)
-![](request.png)
-5. Create tests for the response received to make your tests more effective
-![](tests.png)
+<p align="left">
+    <a align="middle" href="https://github.com/ParthibanRajasekaran/restassured-gherkin-testng-allure/blob/be2b0f9474304532da05b7ef881a0482fe6f2477/docs/primary-task.md">Take me to Primary Task
+      <img align="left" alt="take me to primary task" width="45px" src="https://thumbnails.yayimages.com/8/406/84061e2.jpg" />
+    </a>
+</p>
 
-#### Secondary Task: (Create requests and tests by Builder design pattern)
-1. Create a model <br />
-![](model.png)
-2. Create a builder
-![](builder.png)
-3. Build the payload by parsing JSON objects
-![](payload.png)
 <br />
 
-##### _Build below payloads_:
+#### Secondary Task: (Create requests and tests by Builder design pattern)
+<p align="left">
+    <a align="left" href="https://github.com/ParthibanRajasekaran/restassured-gherkin-testng-allure/blob/be2b0f9474304532da05b7ef881a0482fe6f2477/docs/secondary-task.md">Take me to Secondary Task
+      <img align="left" alt="take me to secondary task" width="45px" src="https://thumbnails.yayimages.com/8/4c9/84c9312.jpg" />
+    </a>
+</p>
 
-**Payload 1:**
-```
-{
-"name": "Payload1",
-
-"task": "build a payload",
-
-"onboardingAutomationTool": "rest-assured",
-
-"onboardingProgrammingLanguage": "Java"
-}
-```
-
-**Payload 2:**
-```
-{
-"name": "Payload2",
-
-"task": "build a payload",
-
-"onboarding": {
-
-"tool": "sampleTool",
-
-"language": "sampleLanguage"
-}
-
-} 
-```
-
-**Payload 3:**
-```
-{
-
-"name": "Payload3",
-
-"task": "build a Payload",
-
-"program": {
-
-"duration": 4 ,
-
-"sector": "quality assurance"
-
-} ,
-
-"onboarding": [ {
-
-"tool": "Selenium",
-
-"language" : "Java"
-
-}, {
-
-"tool" : "Rest-Assured",
-
-"language" : "Java"
-
-} ]
-
-}
-```
-
-4. Print the payload created
-
-5. Create a test suite
-![](testsuite.png)
+<br />
 
 <p align="center">
-    <a align="middle" href="https://github.com/ParthibanRajasekaran/restassured-gherkin-testng-allure/blob/main/README.md">Take me back
-      <img align="middle" alt="take me back to read me" width="45px" src="https://cdn.arrowpng.com/images/red-go-back-arrow.png" />
+    <a align="center" href="https://github.com/ParthibanRajasekaran/restassured-gherkin-testng-allure/blob/main/README.md">Take me back
+      <img align="center" alt="take me back to read me" width="45px" src="https://cdn.arrowpng.com/images/red-go-back-arrow.png" />
     </a>
 </p>
