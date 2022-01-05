@@ -13,22 +13,41 @@
 <br />
 
 ### Prerequisites
+<table> 
+<tr>
+<td>
+<img style="vertical-align:bottom" alt="Java" width="35px" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" /> 
+</td>
+<td>
+Open JDK 11 or higher
+</td>
+</tr>
+<tr>
 
-[<img style="vertical-align:bottom" alt="Java" width="35px" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" />][java] 
+<tr>
+<td>
+<img align="left" style="vertical-align:bottom" alt="Maven" width="50px" src="https://unixcop.com/wp-content/uploads/2021/04/Apache-maven.jpg" /></td>
+<td>
+Apache Maven 3.8.2 or higher
+</td>
+</tr>
+<tr>
 
-[<img align="left" style="vertical-align:bottom" alt="Maven" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/1024px-Apache_Maven_logo.svg.png" />][maven]
-<br />
-[<img align="left" style="vertical-align:bottom" alt="IntelliJ" width="35px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png" />][intelliJ]
-<br />
-
-<br />
+<tr>
+<td>
+<img align="left" style="vertical-align:bottom" alt="IntelliJ" width="35px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png" /></td>
+<td>
+Community edition
+</td>
+</tr>
+</table>
 
 ### Languages and Tools used
 
 [<img align="middle" alt="Git" width="46px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />][git]
 [<img align="middle" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][github]
 [<img align="middle" alt="Java" width="25px" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" />][java]
-[<img align="middle" alt="Maven" width="55px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/1024px-Apache_Maven_logo.svg.png" />][maven]
+[<img align="middle" alt="Maven" width="55px" src="https://unixcop.com/wp-content/uploads/2021/04/Apache-maven.jpg" />][maven]
 [<img align="middle" alt="Maven" width="25px" src="https://howtodoinjava.com/wp-content/uploads/2014/12/TestNG.png" />][testng]
 [<img align="middle" alt="Maven" width="25px" src="https://avatars.githubusercontent.com/u/19369327?s=280&v=4" />][rest-assured]
 [<img align="middle" alt="Maven" width="25px" src="https://604223-1956433-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/10/allure-logo-150x150.png" />][allure-report]
