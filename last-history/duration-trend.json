@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 12,
+  "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/12/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 9458
+  }
+}, {
   "buildOrder" : 11,
   "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/11/",
   "reportName" : "Allure Report with history",
