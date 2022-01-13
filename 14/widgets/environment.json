@@ -1,1 +1,4 @@
-[ ]
+[ {
+  "values" : [ "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure" ],
+  "name" : "URL"
+} ]
