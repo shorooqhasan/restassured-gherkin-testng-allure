@@ -1,4 +1,9 @@
 [ {
+  "buildOrder" : 15,
+  "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/15/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 14,
   "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/14/",
   "reportName" : "Allure Report with history",

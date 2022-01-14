@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "62351d54452deb70",
+      "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/15//#testresult/62351d54452deb70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642129106614,
+        "stop" : 1642129112176,
+        "duration" : 5562
+      }
+    }, {
       "uid" : "9795827fad123685",
       "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/14//#testresult/9795827fad123685",
       "status" : "passed",
@@ -105,11 +114,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "7cdeee8d4b08e76",
+      "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/15//#testresult/7cdeee8d4b08e76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642129113207,
+        "stop" : 1642129115219,
+        "duration" : 2012
+      }
+    }, {
       "uid" : "33076ba7661ebf4c",
       "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/14//#testresult/33076ba7661ebf4c",
       "status" : "passed",
@@ -206,11 +224,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "ee61b299baf015dd",
+      "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/15//#testresult/ee61b299baf015dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642129112272,
+        "stop" : 1642129113297,
+        "duration" : 1025
+      }
+    }, {
       "uid" : "4628a8107bbf496",
       "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/14//#testresult/4628a8107bbf496",
       "status" : "passed",
@@ -307,11 +334,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "4e48fbcd9d7b94db",
+      "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/15//#testresult/4e48fbcd9d7b94db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642129106616,
+        "stop" : 1642129113195,
+        "duration" : 6579
+      }
+    }, {
       "uid" : "765d36364e2672ee",
       "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-testng-allure/14//#testresult/765d36364e2672ee",
       "status" : "passed",
