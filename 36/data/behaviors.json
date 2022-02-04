@@ -1,0 +1,61 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Shop",
+    "children" : [ {
+      "name" : "testCustomerCreation",
+      "uid" : "5a833e8756807f67",
+      "parentUid" : "725a1e009ac1016c5783428f8348bab2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643942284807,
+        "stop" : 1643942289863,
+        "duration" : 5056
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCustomerDeletion",
+      "uid" : "abd4740fbc1b470",
+      "parentUid" : "725a1e009ac1016c5783428f8348bab2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643942284809,
+        "stop" : 1643942289863,
+        "duration" : 5054
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "testUpdateCustomerDetails",
+      "uid" : "7edb50ecc2c29b8d",
+      "parentUid" : "725a1e009ac1016c5783428f8348bab2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643942289960,
+        "stop" : 1643942290751,
+        "duration" : 791
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCustomerDetailsRetrieval",
+      "uid" : "6bc74c17d8e1687",
+      "parentUid" : "725a1e009ac1016c5783428f8348bab2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643942289963,
+        "stop" : 1643942290753,
+        "duration" : 790
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "725a1e009ac1016c5783428f8348bab2"
+  } ],
+  "name" : "behaviors"
+}
