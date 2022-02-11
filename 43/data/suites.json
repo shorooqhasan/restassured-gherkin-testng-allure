@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "API integration suite",
+    "children" : [ {
+      "name" : "SHOP - Customer Flow",
+      "children" : [ {
+        "name" : "com.template.project.api.tests.featureflow.SampleTest",
+        "children" : [ {
+          "name" : "testCustomerDeletion",
+          "uid" : "1f1c8db3a0162cb9",
+          "parentUid" : "29abb992b9db006517deb32bedcf7a0d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644547823393,
+            "stop" : 1644547830925,
+            "duration" : 7532
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testCustomerCreation",
+          "uid" : "9cb38add7ebc0fe6",
+          "parentUid" : "29abb992b9db006517deb32bedcf7a0d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644547823396,
+            "stop" : 1644547829767,
+            "duration" : 6371
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testCustomerDetailsRetrieval",
+          "uid" : "50d36ae20ebe02b8",
+          "parentUid" : "29abb992b9db006517deb32bedcf7a0d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644547829928,
+            "stop" : 1644547831139,
+            "duration" : 1211
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testUpdateCustomerDetails",
+          "uid" : "498f60fb6e865442",
+          "parentUid" : "29abb992b9db006517deb32bedcf7a0d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644547830931,
+            "stop" : 1644547833177,
+            "duration" : 2246
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "29abb992b9db006517deb32bedcf7a0d"
+      } ],
+      "uid" : "7f83db856430479bc488a11ec648cefb"
+    } ],
+    "uid" : "700dc6a379fa572ecf2ddcf6565a57a3"
+  } ],
+  "name" : "suites"
+}
