@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.template.project.api.tests.featureflow.SampleTest",
+    "children" : [ {
+      "name" : "testCustomerDeletion",
+      "uid" : "7b363259e19ea98",
+      "parentUid" : "0077f8bb8ce53709b33e547020671df5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644634464006,
+        "stop" : 1644634471554,
+        "duration" : 7548
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCustomerCreation",
+      "uid" : "6ca1fd73107e0ce5",
+      "parentUid" : "0077f8bb8ce53709b33e547020671df5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644634464009,
+        "stop" : 1644634470406,
+        "duration" : 6397
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCustomerDetailsRetrieval",
+      "uid" : "6d5193074b599295",
+      "parentUid" : "0077f8bb8ce53709b33e547020671df5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644634470547,
+        "stop" : 1644634471758,
+        "duration" : 1211
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testUpdateCustomerDetails",
+      "uid" : "c95186139ce0985d",
+      "parentUid" : "0077f8bb8ce53709b33e547020671df5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644634471565,
+        "stop" : 1644634473903,
+        "duration" : 2338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.template.project.api.tests.featureflow.SampleTest"
+  } ],
+  "name" : "packages"
+}
