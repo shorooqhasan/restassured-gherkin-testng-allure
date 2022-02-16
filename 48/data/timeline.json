@@ -1,0 +1,69 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az82-496",
+    "children" : [ {
+      "name" : "2836@fv-az82-496.TestNG-test=SHOP - Customer Flow-2(15)",
+      "children" : [ {
+        "name" : "testUpdateCustomerDetails",
+        "uid" : "5073cfa1583f0716",
+        "parentUid" : "8e5f7ec9a58b3706c7dc2f8020cd2bc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644979917654,
+          "stop" : 1644979919902,
+          "duration" : 2248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testCustomerDeletion",
+        "uid" : "7d85f74d9af829de",
+        "parentUid" : "8e5f7ec9a58b3706c7dc2f8020cd2bc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644979910486,
+          "stop" : 1644979917642,
+          "duration" : 7156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e5f7ec9a58b3706c7dc2f8020cd2bc1"
+    }, {
+      "name" : "2836@fv-az82-496.TestNG-test=SHOP - Customer Flow-1(14)",
+      "children" : [ {
+        "name" : "testCustomerCreation",
+        "uid" : "93aae9df4f9af367",
+        "parentUid" : "dd473e4b335520af3d492d966486eada",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644979910484,
+          "stop" : 1644979916502,
+          "duration" : 6018
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testCustomerDetailsRetrieval",
+        "uid" : "117c40cc00c55e01",
+        "parentUid" : "dd473e4b335520af3d492d966486eada",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644979916609,
+          "stop" : 1644979917769,
+          "duration" : 1160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd473e4b335520af3d492d966486eada"
+    } ],
+    "uid" : "2cb35e2a962d94c1fb0e53661b95c241"
+  } ],
+  "name" : "timeline"
+}
