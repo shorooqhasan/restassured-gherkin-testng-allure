@@ -1,0 +1,41 @@
+[ {
+  "uid" : "aee6c6d48938ec89",
+  "name" : "testCustomerDetailsRetrieval",
+  "time" : {
+    "start" : 1645065968059,
+    "stop" : 1645065968833,
+    "duration" : 774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4acf55a4000a6ab",
+  "name" : "testCustomerDeletion",
+  "time" : {
+    "start" : 1645065962213,
+    "stop" : 1645065968659,
+    "duration" : 6446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e57a0f388479f92",
+  "name" : "testUpdateCustomerDetails",
+  "time" : {
+    "start" : 1645065968669,
+    "stop" : 1645065970127,
+    "duration" : 1458
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbd08e1206b0ec53",
+  "name" : "testCustomerCreation",
+  "time" : {
+    "start" : 1645065962217,
+    "stop" : 1645065967958,
+    "duration" : 5741
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
